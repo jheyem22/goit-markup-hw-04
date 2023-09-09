@@ -14,6 +14,7 @@
   --font-family-raleway: "Raleway", "sans-serif";
   --slate: #434455;
   --hero-officepeople: "./images/hero-office.jpg";
+  --OCEAN: #404bbf;
 }
 
 h1,
@@ -119,7 +120,7 @@ address {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  color: var(--navyblue);
+  color: var(--iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.14;
@@ -130,7 +131,7 @@ address {
 .nav-menu .page:focus,
 .contacts-menu .contact:hover,
 .contacts-menu .contact:focus {
-  color: var(--iris);
+  color: var(--OCEAN);
 }
 
 .nav-menu .item:not(:last-child),
