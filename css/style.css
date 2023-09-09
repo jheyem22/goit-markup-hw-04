@@ -15,6 +15,7 @@
   --slate: #434455;
   --hero-officepeople: "./images/hero-office.jpg";
   --OCEAN: #404bbf;
+  --herobggrey: #2e2f42;
 }
 
 h1,
@@ -262,10 +263,10 @@ address {
 
 .button-orderservice:hover,
 .button-orderservice:focus {
-  background-color: var(--cloud);
+  background-color: var(--OCEAN);
   text-align: center;
   cursor: pointer;
-  color: var(--navyblue);
+  color: var(--white-color);
 }
 
 .button-port-nav:hover,
@@ -274,6 +275,7 @@ address {
   color: var(--cloud);
   text-align: center;
   cursor: pointer;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .button-port-nav {
