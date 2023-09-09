@@ -149,7 +149,97 @@ address {
   color: var(--white-color);
   margin-top: 20px;
 }
+.socmed {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
 
+.socmed-text {
+  font-family: var(--font-family-roboto);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  color: var(--white-color);
+  padding-bottom: 16px;
+}
+
+.footercontent {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 120px;
+}
+.footercontent .item {
+  flex-basis: calc((100% -120 px) / 2);
+}
+
+.socmedia {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-start;
+
+  justify-content: flex-start;
+}
+
+.socmedia .soc {
+  flex-basis: calc((100% - 48px) / 4);
+}
+.soc {
+  background-color: var(--iris);
+}
+.socimg {
+  width: 24px;
+  height: 24px;
+}
+/*
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  width: 1100px;
+  gap: 8px;
+}
+
+.features-list .item {
+  flex-basis: calc((100% - 24px) / 4);
+}
+
+.features-list .title {
+  margin-bottom: 10px;
+  color: var(--navyblue);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.features-list .description {
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+.features-list .featimg {
+  height: 64px;
+}
+.featbox {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  border-radius: 4px;
+  background-color: var(--cloud);
+  border: 4px 1px solid var(--cloud);
+}
+.featcont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+*/
 /* button */
 
 /* Button Text */
@@ -222,7 +312,11 @@ address {
   padding-bottom: 188px;
   text-align: center;
   background-color: var(--navyblue);
-  background-image: var(--hero-officepeople);
+  background: url(../images/hero-office.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  height: 600px;
 }
 .section-title {
   margin-bottom: 50px;
@@ -354,7 +448,9 @@ address {
   font-size: 16px;
   letter-spacing: 1.5;
 }
-
+.teamrole {
+  padding-bottom: 8px;
+}
 /*4th section- customer*/
 
 .customers {
