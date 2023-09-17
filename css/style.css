@@ -207,6 +207,7 @@ address {
 }
 .socmedia li a svg {
   fill: var(--white-color);
+  color: var(--white-color);
 }
 
 .soc {
