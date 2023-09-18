@@ -323,7 +323,7 @@ li a {
   gap: 8px;
 }
 
-.features-list .item {
+.features-list .features-item {
   flex-basis: calc((100% - 24px) / 4);
 }
 
@@ -358,6 +358,38 @@ li a {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
+}
+
+/* Icons */
+
+.features-item.antenna::before,
+.features-item.clock::before,
+.features-item.diagram::before,
+.features-item.astronaut::before {
+  content: "";
+  display: block;
+  margin-bottom: 30px;
+  height: 120px;
+  border-radius: 4px;
+  background-repeat: no-repeat;
+  background-color: var(--cloud);
+  background-position: center;
+}
+
+.features-item.antenna::before {
+  background-image: url(../images/feat1.svg);
+}
+
+.features-item.clock::before {
+  background-image: url(../images/feat2.svg);
+}
+
+.features-item.diagram::before {
+  background-image: url(../images/feat3.svg);
+}
+
+.features-item.astronaut::before {
+  background-image: url(../images/feat4.svg);
 }
 
 /*3nd section- what are we doing*/
