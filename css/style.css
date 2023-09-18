@@ -173,7 +173,7 @@ address {
   gap: 120px;
 }
 .footercontent .item {
-  flex-basis: calc((100% -120 px) / 2);
+  flex-basis: calc((100% -120px) / 2);
 }
 /*SOCIAL CONTENT*/
 .socmed {
@@ -205,9 +205,8 @@ address {
 .socmedia .soc {
   flex-basis: calc((100% - 52px) / 4);
 }
-.socmedia li a svg {
+.socmedia .soc a svg {
   fill: var(--white-color);
-  color: var(--white-color);
 }
 
 .soc {
