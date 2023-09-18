@@ -172,11 +172,11 @@ address {
   flex-wrap: wrap;
   gap: 120px;
 }
-.footercontent .item {
+.footercontent .left-item .socmed-item {
   flex-basis: calc((100% -120px) / 2);
 }
 /*SOCIAL CONTENT*/
-.socmed {
+.socmed-item {
   display: inline-flex;
   justify-content: flex-start;
   align-items: flex-start;
